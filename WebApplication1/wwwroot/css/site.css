@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+#index-container, #register-container, #setup-container, #login-container{
+    margin-top: 10em;
+    height: 20vh;
+ }
+
+#login-form, #index-container, #register-form, #setup-form {
+    padding: 2em;
+    border: 1px solid #b3d4fc;
+    background-color: white;
+    width: 35%;
+}
+.user-profile-container{
+    transition: background-color 0.25s;
+    width: 2.8em;
+    height: 2.8em;
+    margin-top: -5px;
+    margin-right: 5em;
+    border-radius: 50%;
+}
+
+.user-dropdown .dropdown-menu{
+    transform: translateX(-35%) !important;
+    top: 100% !important;
+}
+
+.navbar-nav .dropdown-menu{
+    position: absolute;
+}
+
+.btn-primary{
+    background-color: #28B5F5;
+}
