@@ -21,6 +21,11 @@ body {
   margin-bottom: 60px;
 }
 
+nav{
+    margin-left: 5em;
+    margin-right: 5em;  
+}
+
 
 #index-container, #register-container, #setup-container, #login-container{
     margin-top: 10em;
@@ -38,7 +43,7 @@ body {
     width: 2.8em;
     height: 2.8em;
     margin-top: -5px;
-    margin-right: 5em;
+    margin-right: 2em;
     border-radius: 50%;
 }
 
